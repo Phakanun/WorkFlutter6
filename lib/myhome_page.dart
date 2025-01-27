@@ -16,9 +16,27 @@ class _MyhomePageState extends State<MyhomePage> {
       ),
       body: ListView(
         children: [
-          Text('Water Filter1',style: TextStyle(fontSize: 20),),
-          Text('Water Filter2',style: TextStyle(fontSize: 20),),
-          Text('Water Filter3',style: TextStyle(fontSize: 20),),
+          ListTile(
+            leading: Icon(Icons.person),
+            title: Text('OwO', style: TextStyle(fontSize: 20),),
+            subtitle: Text('Hello'),
+            trailing: Icon(Icons.arrow_forward_ios),
+            tileColor: Colors.white60,
+          ),
+          ListTile(
+            leading: Icon(Icons.person_2),
+            title: Text('OwO', style: TextStyle(fontSize: 20),),
+            subtitle: Text('Hello'),
+            trailing: Icon(Icons.arrow_forward_ios),
+            tileColor: Colors.white60,
+          ),
+          ListTile(
+            leading: Icon(Icons.person_3),
+            title: Text('OwO', style: TextStyle(fontSize: 20),),
+            subtitle: Text('Hello'),
+            trailing: Icon(Icons.arrow_forward_ios),
+            tileColor: Colors.white60,
+          ),
         ],
       )
     );
