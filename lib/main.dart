@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app2/cal.dart';
+import 'package:flutter_app2/myhome_page.dart';
 import 'package:flutter_app2/welcome_page.dart';
 
 void main() {
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => WelcomePage(),
         '/cal': (context) => Cal(),
+        '/homepage': (context) => MyhomePage(),
       },
       //home: const WelcomePage(),
     );
